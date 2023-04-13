@@ -1,3 +1,5 @@
+package ayhansdf100
+
 import java.util.*
 
 class Student {
@@ -59,7 +61,7 @@ class Student {
     }
 
     override fun toString(): String =
-        "Name:$firstName $lastName\nGrade Level:$gradeYear\nStudent ID:$studentID\nCourses Enrolled:$courses\nBalance: $$balance"
+        "Name:$firstName $lastName\nGrade Level:$gradeYear\nayhansdf100.Student ID:$studentID\nCourses Enrolled:$courses\nBalance: $$balance"
 
     companion object {
         private var id = 1000
